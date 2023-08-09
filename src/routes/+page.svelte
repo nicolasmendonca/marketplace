@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import FeedPost from '../lib/components/FeedPost.svelte';
+</script>
+
+<main class="space-y-16 py-16 max-w-screen-md mx-auto">
+	<FeedPost />
+	<FeedPost />
+	<FeedPost />
+</main>
